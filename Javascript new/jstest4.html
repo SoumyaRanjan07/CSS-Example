@@ -1,0 +1,17 @@
+<html>
+<head>
+    <tittle>slideshow</tittle>
+    <script>
+    var picture=["K:\Bracket project\Javascript new\picturesjs\img_1.jpg\img2.jpg\img3.jpg\img4.jpg\img5.jpg\img6.jpg\img7.jpg"];
+    function load()
+        {
+            /*alert("loaded");*/
+            document.getElementById("img1").getElementsByTagName("img")[0].src=picture[0];
+        }
+    </script>
+    </head>
+    <body onload= "load();">
+       <center> <h1 id="slidepic">Mypictures</h1></center>
+        <div id="img1" style="width: 1000px;height: 800px;margin:auto">
+            <img style="height:  100%;width: 100%"/></div>
+    </body></html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <tittle>
+    </tittle></head>
+ 
+<body>
+    <script type="text/javascript">
+    var Person=
+        {
+            personid:100,
+            Firstname:"soumya",
+            Lastname:"Ranjan",
+            
+             Fullname:function()
+            {
+            return this.Firstname+" "+this.Lastname,
+            }
+            
+            salary:10000,
+            hobies:["gym","music","travelling"],
+            joindate:"01-12-19"
+           
+        };
+            
+         document.write("< table border='5' >");
+        document.write("<tr><th>Id</th><td>"+Person.personid+"</td></tr>");
+        document.write( "<tr><th>Id</th><td>"+Person.Fullname()+"</td></tr>"); 
+        document.write( "<tr><th>Id</th><td>"+Person.salary+"</td></tr>");
+        document.write( "<tr><th>Id</th><td>"+Person.hobies+"</td></tr>");
+        document.write( "<tr><th>Id</th><td>"+Person.joindate+"</td></tr>");
+        document.write( "</table>");
+    </script>
+     </body>
+</html>

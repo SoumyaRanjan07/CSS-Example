@@ -1,0 +1,60 @@
+table
+    {
+        border-width: medium;
+        width: 100%;
+        margin-right: 200px;
+        border-color: blue;
+        border-style: solid;
+       
+    }
+    th
+    {
+        font-size: 20px;
+        font-style: oblique;
+        font-family: monospace;
+        background-color:aquamarine;
+      height: 30px;  
+    }
+    td
+    {  
+/*    
+        -webkit-transform:rotate(2deg);
+        -webkit-transform:skewy(2deg);*/
+      font-family: fantasy;
+        text-shadow: 2px 2px 2px white;
+        border-radius: 20px;
+        font-size: 20px;
+        text-align: center;
+        width:10%;
+    }
+    img
+    {
+        padding-left: 30px;
+        width: 250px;
+        height: 250px;
+        
+    }
+    tr:nth-child(even) 
+    {
+        color:blueviolet;
+     background-color: darksalmon;   
+    }
+    tr:nth-child(odd)
+    {
+        color: black;
+        background-color: brown;
+    }
+/*
+    img:hover
+    {
+        -webkit-transform:scale(2);
+        -webkit-transition:all 0.2s ease;
+    }
+*/
+    td:hover
+    {
+        -webkit-transform:scale(2);
+        -webkit-transition:all 0.2s ease;
+     
+    }
+    
